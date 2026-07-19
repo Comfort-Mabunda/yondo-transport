@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yondo Transport (Pty) Ltd | Premium Moving & Logistics</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Color Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sandbg: '#E8DFD5', 
+                        slatebg: '#F4F4F6', 
+                        copper: {
+                            500: '#A3623B', 
+                            600: '#8F5330',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+</head>
+<body class="bg-sandbg text-stone-700 font-sans antialiased selection:bg-copper-500/10">
+
+    <!-- 1. Top Minimalist Utility Bar -->
+    <div class="bg-stone-800 text-stone-300 text-xs sm:text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <a href="https://wa.me/27799379582" target="_blank" class="flex items-center gap-1.5 hover:text-white transition-colors">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-stone-400"></i> +27 (0) 79 937 9582
+                </a>
+                <span class="flex items-center gap-1.5"><i data-lucide="mail" class="w-3.5 h-3.5 text-stone-400"></i> info@yondotransport.co.za</span>
+            </div>
+            <div class="flex items-center gap-2 font-medium text-stone-200">
+                <span class="w-1.5 h-1.5 rounded-full bg-copper-500"></span>
+                <span>Base Rate: R49/km • Fully Insured</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Clean White Navigation Header -->
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-stone-200/60">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            
+            <!-- Company Logo Frame -->
+            <div class="flex items-center">
+                <img src="image_b33dfc.png" alt="Yondo Transport Logo" class="h-9 sm:h-11 w-auto object-contain">
+            </div>
+            
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-stone-600 text-sm tracking-wide">
+                <a href="#" class="text-stone-900 font-semibold border-b-2 border-copper-500 pb-1">Home</a>
+                
+                <!-- About Us Dropdown Container with Director Info -->
+                <div class="relative dropdown py-2">
+                    <button class="hover:text-stone-900 transition-colors inline-flex items-center gap-1 focus:outline-none">
+                        About Us <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-stone-400"></i>
+                    </button>
+                    <div class="dropdown-menu hidden absolute left-0 mt-2 w-64 bg-white border border-stone-200 rounded shadow-lg py-3 px-4 z-50">
+                        <span class="block text-[10px] uppercase tracking-wider font-bold text-copper-500 mb-1">Management Profile</span>
+                        <p class="text-stone-900 font-bold text-sm">Ntwanano Khumalo</p>
+                        <p class="text-stone-400 text-xs uppercase tracking-tight font-medium">Director / Manager</p>
+                        <div class="w-full h-px bg-stone-100 my-2"></div>
+                        <p class="text-stone-500 text-xs leading-relaxed font-normal">
+                            Committed to maintaining excellence, transparent pricing frameworks, and structural safety across all national logistical hauls.
+                        </p>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Primary Call To Action -->
+            <div>
+                <a href="https://wa.me/27799379582" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-5 py-2.5 rounded text-xs uppercase tracking-wider transition-all duration-200 shadow-sm inline-flex items-center gap-2">
+                    <i data-lucide="message-square" class="w-3.5 h-3.5"></i> Chat via WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Hero & Interactive Form Section -->
+    <section class="py-12 lg:py-20 px-4 bg-sandbg">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Hero Left Copy -->
+            <div class="lg:col-span-6 space-y-6">
+                <div class="inline-flex items-center gap-2 bg-white/80 border border-stone-300 text-stone-600 px-3 py-1 rounded text-xs uppercase font-bold tracking-widest shadow-sm">
+                    <i data-lucide="shield-check" class="w-3.5 h-3.5 text-copper-500"></i> Reliable Moving Platform
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-stone-900 leading-none uppercase">
+                    South Africa’s <span class="text-copper-500">Premium</span> Movers & Logistics.
+                </h1>
+                <p class="text-base sm:text-lg text-stone-700 max-w-xl font-normal leading-relaxed">
+                    Safely relocating your household assets, modern corporate spaces, and providing heavy material transport options with complete structural care.
+                </p>
+                
+                <!-- Trust Features Layout -->
+                <div class="grid grid-cols-3 gap-4 pt-6 border-t border-stone-300 max-w-lg">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="users" class="text-stone-500 w-4 h-4 flex-shrink-0"></i>
+                        <span class="text-xs font-bold tracking-wide text-stone-800 uppercase">Vetted Movers</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="truck" class="text-stone-500 w-4 h-4 flex-shrink-0"></i>
+                        <span class="text-xs font-bold tracking-wide text-stone-800 uppercase">Owned Fleet</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="clock" class="text-stone-500 w-4 h-4 flex-shrink-0"></i>
+                        <span class="text-xs font-bold tracking-wide text-stone-800 uppercase">On-Time Focus</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client Quote Booking Container -->
+            <div id="quote-form" class="lg:col-span-6 bg-white text-stone-900 rounded-lg shadow-md p-6 sm:p-8 border border-stone-200">
+                <h3 class="text-lg font-bold uppercase tracking-tight text-stone-900 mb-1 flex items-center gap-2">
+                    Request a Quote
+                </h3>
+                <p class="text-xs text-stone-400 mb-4 uppercase tracking-wider font-semibold">Rate: R49 per km • WhatsApp Routing</p>
+                
+                <form id="whatsappForm" class="space-y-3.5" onsubmit="sendWhatsAppQuery(event)">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Your Name</label>
+                            <input id="formName" type="text" required placeholder="Name" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Phone Number</label>
+                            <input id="formPhone" type="tel" required placeholder="Phone" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Service Type</label>
+                            <select id="formService" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                                <option>Residential Relocation</option>
+                                <option>Office Move</option>
+                                <option>Furniture Delivery</option>
+                                <option>Material Transport</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Vehicle Capacity</label>
+                            <select id="formCapacity" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                                <option>1-Ton Utility Bakkie</option>
+                                <option>4-Ton Load</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Pickup Suburb</label>
+                            <input id="formFrom" type="text" required placeholder="From Suburb" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Delivery Suburb</label>
+                            <input id="formTo" type="text" required placeholder="To Suburb" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Moving Date</label>
+                            <input id="formDate" type="date" required class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Est. Distance (km)</label>
+                            <input id="formDistance" type="number" placeholder="Optional" class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[10px] font-bold uppercase tracking-wider text-stone-500 mb-1">Description of Items to be Moved</label>
+                        <textarea id="formDescription" rows="2" required placeholder="List your key items here (e.g., Fridge, Queen Bed, 10 Boxes)..." class="w-full border border-stone-200 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-copper-500 bg-stone-50/50 resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold uppercase tracking-widest py-3 px-4 rounded transition mt-1 flex justify-center items-center gap-2 text-xs">
+                        Send to WhatsApp <i data-lucide="message-square" class="w-3.5 h-3.5 text-white"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. Core Pillars Service Presentation Grid -->
+    <section class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-xs font-bold text-copper-500 tracking-widest uppercase block mb-1">Operational Capabilities</span>
+            <h2 class="text-3xl font-black text-stone-900 tracking-tight uppercase">Core Services</h2>
+            <div class="w-12 h-0.5 bg-copper-500 mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded shadow-sm border border-stone-200/60 p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="w-10 h-10 bg-slatebg text-stone-700 rounded flex items-center justify-center mb-5 border border-stone-200">
+                        <i data-lucide="home" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-2 uppercase tracking-tight">Residential Relocations</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        Full-service household transitions engineered to safeguard your furniture and valuables. We manage systematic packing, loading, and transit logistics.
+                    </p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-stone-100">
+                    <span class="text-xs font-bold text-stone-600 tracking-wider uppercase inline-flex items-center gap-1 cursor-pointer hover:text-copper-500 transition-colors">Details <i data-lucide="chevron-right" class="w-3 h-3"></i></span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded shadow-sm border border-stone-200/60 p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="w-10 h-10 bg-slatebg text-stone-700 rounded flex items-center justify-center mb-5 border border-stone-200">
+                        <i data-lucide="package" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-2 uppercase tracking-tight">Furniture Delivery</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        Purchased items from store networks or marketplace vendors? We coordinate direct curb-to-curb drops for single large assets or full lounge sets.
+                    </p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-stone-100">
+                    <span class="text-xs font-bold text-stone-600 tracking-wider uppercase inline-flex items-center gap-1 cursor-pointer hover:text-copper-500 transition-colors">Details <i data-lucide="chevron-right" class="w-3 h-3"></i></span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded shadow-sm border border-stone-200/60 p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="w-10 h-10 bg-slatebg text-stone-700 rounded flex items-center justify-center mb-5 border border-stone-200">
+                        <i data-lucide="boxes" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-stone-900 mb-2 uppercase tracking-tight">Material Transport</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        Commercial merchant inventory runs, site storage logistics, or structural building supply delivery. Handled safely by cargo professionals.
+                    </p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-stone-100">
+                    <span class="text-xs font-bold text-stone-600 tracking-wider uppercase inline-flex items-center gap-1 cursor-pointer hover:text-copper-500 transition-colors">Details <i data-lucide="chevron-right" class="w-3 h-3"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Capacity & Fleet Configuration Section -->
+    <section class="py-16 px-4 bg-white border-t border-b border-stone-200/60">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-xs font-bold tracking-widest uppercase text-copper-500 block mb-1">Fleet Grid Matrix</span>
+                    <h2 class="text-3xl font-black text-stone-900 uppercase tracking-tight">Vehicle Capacities</h2>
+                </div>
+                <div class="mt-4 md:mt-0 bg-slatebg text-stone-600 text-xs px-4 py-2 rounded border border-stone-200 font-medium">
+                    Note: Assistance crew size customizable per quote request.
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Vehicle Card 1 -->
+                <div class="bg-slatebg border border-stone-200 rounded p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-stone-500">Light Transport</span>
+                        <h4 class="text-xl font-extrabold text-stone-900 mt-1 mb-3 uppercase">1-Ton Utility Bakkie</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed mb-6">
+                            Excellent choice for single appliance delivery runs, small student apartment relocations, and light building material drops.
+                        </p>
+                        <div class="space-y-2.5 border-t border-stone-200 pt-4 text-xs tracking-wide uppercase font-semibold text-stone-600">
+                            <div class="flex justify-between"><span>Payload Limit</span><span class="text-stone-900">1,000 kg</span></div>
+                            <div class="flex justify-between"><span>Cargo Style</span><span class="text-stone-900">Open Bed / Canopy</span></div>
+                            <div class="flex justify-between"><span>Standard Crew</span><span class="text-stone-900">Driver + 1 Assistant</span></div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <a href="#quote-form" class="block text-center bg-white hover:bg-stone-100 transition text-xs font-bold uppercase tracking-widest py-2.5 rounded text-stone-700 border border-stone-300">Select Config</a>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 2 -->
+                <div class="bg-white border-2 border-copper-500 rounded p-6 flex flex-col justify-between shadow-sm relative">
+                    <div class="absolute -top-3 left-6 bg-copper-500 text-white text-[9px] uppercase font-black px-2.5 py-0.5 tracking-widest rounded">Most Requested</div>
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-copper-500">Core Removals</span>
+                        <h4 class="text-xl font-extrabold text-stone-900 mt-1 mb-3 uppercase">4-Ton Load</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed mb-6">
+                            The optimal standard infrastructure layout for comprehensive 1-to-2 bedroom household transitions or small offices.
+                        </p>
+                        <div class="space-y-2.5 border-t border-stone-200 pt-4 text-xs tracking-wide uppercase font-semibold text-stone-600">
+                            <div class="flex justify-between"><span>Payload Limit</span><span class="text-stone-900">4,000 kg</span></div>
+                            <div class="flex justify-between"><span>Cargo Style</span><span class="text-stone-900">Enclosed Box Body</span></div>
+                            <div class="flex justify-between"><span>Standard Crew</span><span class="text-stone-900">Driver + 2 Assistants</span></div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <a href="#quote-form" class="block text-center bg-copper-500 hover:bg-copper-600 text-white transition text-xs font-bold uppercase tracking-widest py-2.5 rounded shadow-sm">Select Config</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer Layout -->
+    <footer class="bg-stone-900 text-stone-400 py-12 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <div class="space-y-4">
+                <img src="image_b33dfc.png" alt="Yondo Transport Logo Footer" class="h-8 w-auto object-contain brightness-90">
+                <p class="text-xs leading-relaxed max-w-xs text-stone-500 font-medium">
+                    Professional logistics and removals across South Africa. Ensuring safety metrics are met seamlessly on every haul.
+                </p>
+            </div>
+            <div>
+                <h5 class="text-stone-200 text-xs font-bold tracking-widest uppercase mb-4">Management Office</h5>
+                <div class="text-xs space-y-1 text-stone-400">
+                    <p class="font-bold text-stone-300">Ntwanano Khumalo</p>
+                    <p class="text-stone-500">Director / Manager</p>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-stone-200 text-xs font-bold tracking-widest uppercase mb-4">Contact</h5>
+                <ul class="space-y-2 text-xs font-medium">
+                    <li class="flex items-center gap-1.5">
+                        <i data-lucide="phone" class="w-3 h-3 text-stone-500"></i> 
+                        <a href="https://wa.me/27799379582" target="_blank" class="hover:text-white">+27 (0) 79 937 9582</a>
+                    </li>
+                    <li class="flex items-center gap-1.5"><i data-lucide="mail" class="w-3 h-3 text-stone-500"></i> info@yondotransport.co.za</li>
+                    <li class="text-stone-600 pt-2 font-bold uppercase tracking-wider text-[10px]">Gauteng, South Africa</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Legal & Incorporation Footnotes -->
+        <div class="max-w-7xl mx-auto border-t border-stone-800 mt-12 pt-6 text-center text-xs text-stone-600 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="text-left">
+                <p class="font-bold text-stone-500 uppercase tracking-wide text-[10px]">Yondo Transport (Pty) Ltd</p>
+                <p class="text-[11px] text-stone-600 font-medium">Reg No: 2015/160059/07</p>
+            </div>
+            <p>&copy; 2026 Yondo Transport. All Rights Reserved.</p>
+            <div class="flex gap-4">
+                <a href="#" class="hover:underline">Terms & Conditions</a>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Engine -->
+    <script>
+        lucide.createIcons();
+
+        function sendWhatsAppQuery(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('formName').value;
+            const phone = document.getElementById('formPhone').value;
+            const service = document.getElementById('formService').value;
+            const capacity = document.getElementById('formCapacity').value;
+            const fromLoc = document.getElementById('formFrom').value;
+            const toLoc = document.getElementById('formTo').value;
+            const moveDate = document.getElementById('formDate').value;
+            const distance = document.getElementById('formDistance').value || 'TBD';
+            const description = document.getElementById('formDescription').value;
+
+            let pricingNote = "Quote needed";
+            if(distance !== 'TBD' && !isNaN(distance)) {
+                pricingNote = `R${(parseFloat(distance) * 49).toFixed(2)} (Based on R49/km)`;
+            }
+
+            const messageString = `Hello Yondo Transport, I would like to request a quote:\n\n` +
+                                  `• Name: ${name}\n` +
+                                  `• Phone: ${phone}\n` +
+                                  `• Profile: ${service}\n` +
+                                  `• Selected Vehicle: ${capacity}\n` +
+                                  `• Pickup: ${fromLoc}\n` +
+                                  `• Delivery: ${toLoc}\n` +
+                                  `• Date: ${moveDate}\n` +
+                                  `• Distance: ${distance} km\n` +
+                                  `• Est. Transport Fee Reference: ${pricingNote}\n\n` +
+                                  `• Description of Items:\n${description}`;
+
+            const encodedText = encodeURIComponent(messageString);
+            window.open(`https://wa.me/27799379582?text=${encodedText}`, '_blank');
+        }
+    </script>
+</body>
+</html>
